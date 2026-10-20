@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="uk" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">   
+    <title>KovMebli - Меблі на замовлення в Івано-Франківську</title>
+    <link id="favicon" rel="icon" type="image/svg+xml" href="images/page_logo/km-logo-black.svg?v=10">
+
+    <link rel="canonical" href="https://kov-mebli.com/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css?v=1.1">
+</head>
+<body>
+<div class="app-container">
+<header class="navbar reveal-top">
+    <div class="container nav-content">
+        <a href="/" class="logo">Kov<span>Mebli</span></a>
+        
+        <nav class="nav-menu">
+            <a href="#services" class="nav-btn">Послуги</a>
+            <a href="#steps" class="nav-btn">Процес</a>
+            <a href="#gallery" class="nav-btn">Проекти</a>
+            <a href="#faq" class="nav-btn">FAQ</a>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Змінити тему">
+            <i class="fas fa-moon" id="themeIcon"></i>
+        </button>
+    </div>
+</header>
+
+    <section class="hero reveal">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Меблі на замовлення,<br>що створюють затишок</h1>
+                <p>Від планування до монтажу. Індивідуальний підхід, доступні ціни та висока якість кожного виробу в Івано-Франківську.</p>
+                <button class="btn-main" onclick="openInfoModal('modal-contact')">Розрахувати вартість</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages reveal">
+        <div class="container reveal">
+            <div class="advantages-grid">
+                <div class="adv-item">
+                    <i class="fas fa-ruler-combined"></i>
+                    <h4>Точність до міліметра</h4>
+                    <p>Індивідуальні заміри та 3D-проект під ваші розміри.</p>
+                </div>
+                <div class="adv-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Надійні матеріали</h4>
+                    <p>Використовуємо якісні плити та фурнітуру.</p>
+                </div>
+                <div class="adv-item">
+                    <i class="fas fa-truck-loading"></i>
+                    <h4>Доставка та монтаж</h4>
+                    <p>Беремо на себе всі клопоти з доставки та чистого встановлення.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="services" class="services">
+    <div class="container">
+        <h2 class="section-title reveal">Ми виготовляємо</h2>
+        <div class="furniture-grid">
+            <div class="furniture-item reveal">
+                <i class="fas fa-utensils"></i>
+                <span>Кухні</span>
+                <p class="item-desc">Індивідуальний дизайн, функціональність та надійна фурнітура.</p>
+            </div>
+            <div class="furniture-item reveal reveal-delay-1">
+                <i class="fas fa-couch"></i>
+                <span>Вітальні</span>
+                <p class="item-desc">Сучасні стінки та тумби, що створюють затишок у вашому домі.</p>
+            </div>
+            <div class="furniture-item reveal reveal-delay-3">
+                <i class="fas fa-door-closed"></i>
+                <span>Шафи-купе</span>
+                <p class="item-desc">Місткі та стильні рішення для зручного зберігання речей.</p>
+            </div>
+            <div class="furniture-item reveal reveal-delay-4">
+                <i class="fas fa-child"></i>
+                <span>Дитячі</span>
+                <p class="item-desc">Безпечні екологічні матеріали та яскравий дизайн для дітей.</p>
+            </div>
+            <div class="furniture-item reveal reveal-delay-5">
+                <i class="fas fa-bed"></i>
+                <span>Спальні</span>
+                <p class="item-desc">Комфортні ліжка та комоди для вашого повноцінного відпочинку.</p>
+            </div>
+            <div class="furniture-item reveal reveal-delay-6">
+                <i class="fas fa-briefcase"></i>
+                <span>Офісні меблі</span>
+                <p class="item-desc">Ергономічні столи та шафи для продуктивної роботи.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="steps" class="steps reveal">
+        <div class="container">
+            <h2 class="section-title">Як ми працюємо</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-num">1</div>
+                    <h3>Заявка та замір</h3>
+                    <p>Ви залишаєте заявку, майстер приїжджає для точних замірів та консультації.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">2</div>
+                    <h3>Проект та договір</h3>
+                    <p>Створюємо 3D-макет, узгоджуємо матеріали, ціну та вкладаємо договір.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">3</div>
+                    <h3>Виготовлення</h3>
+                    <p>Виробляємо меблі на сучасному обладнанні у визначені терміни.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">4</div>
+                    <h3>Монтаж</h3>
+                    <p>Доставляємо та встановлюємо меблі, залишаючи після себе чистоту.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery reveal">
+        <div class="container">
+            <h2 class="section-title">Наші реалізовані проекти</h2>
+            <div class="slider-container" id="sliderContainer">
+                    <div class="slider-track" id="sliderTrack">
+                        <div class="slide">
+                            <img src="images/all/1.webp" alt="Кухня" decoding="async">
+                            <div class="slide-info">
+                                <h4>Кухня "Модерн"</h4>
+                                <p>Фасади з текстурою дуба, прихована фурнітура та LED-підсвітка.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/all/2.webp" alt="Шафа-купе" decoding="async">
+                            <div class="slide-info">
+                                <h4>Світла кухня</h4>
+                                <p>Мінімалістичний дизайн з дерев'яними стільницями та винною полицею.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/all/3.webp" alt="Дитяча" decoding="async">
+                            <div class="slide-info">
+                                <h4>Кухня з дерев'яним акцентом</h4>
+                                <p>Довга робоча поверхня та місткі верхні шафки до стелі.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/all/4.webp" alt="Офіс" decoding="async">
+                            <div class="slide-info">
+                                <h4>Сходи з підсходинками</h4>
+                                <p>Обшивка металевого каркасу деревом та вбудовані шафи під сходами.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/all/5.webp" alt="Розсувна система" decoding="async">
+                            <div class="slide-info">
+                                <h4>Матова розсувна система</h4>
+                                <p>Чорний алюмінієвий профіль із матованим склом для шафи-купе або зонування простору.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/all/6.webp" alt="Кухня Графіт" decoding="async">
+                            <div class="slide-info">
+                                <h4>Кухня "Матовий Графіт"</h4>
+                                <p>Стильне поєднання темних нижніх фасадів, світлого верху та стільниці під темний мармур.</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="slider-pagination" id="pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq reveal">
+        <div class="container">
+            <h2 class="section-title">Часті питання</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">Скільки часу займає виготовлення? <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>У середньому виготовлення меблів займає від 14 до 30 робочих днів, залежно від складності проекту та наявності обраних матеріалів на складі.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Чи платний виїзд на замір? <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Виїзд на замір у межах Івано-Франківська безкоштовний. Виїзд в область обговорюється індивідуально.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Чи надаєте ви гарантію? <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Так, ми надаємо офіційну гарантію на всю нашу продукцію та фурнітуру терміном від 1 року.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer reveal">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <div class="footer-col">
+                    <h4>Місце роботи</h4>
+                    <a href="https://www.google.com/maps/search/Івано-Франківськ" class="footer-link" target="_blank">Івано-Франківськ та область</a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Соцмережі</h4>
+                    <a href="https://www.instagram.com/kovmebli/" class="footer-link" target="_blank">Сторінка Instagram</a>
+                </div>
+                
+            </div> <div class="footer-bottom">
+                © 2026 KOV MEBLI <span class="separator">|</span> MADE BY <a href="https://t.me/forditt" target="_blank" class="footer-link">FORDITT</a>
+            </div>
+            
+        </div>
+    </footer>
+
+    <div id="modal-contact" class="modal-overlay">
+        <div class="modal-body">
+            <div class="close-x" onclick="closeInfoModal('modal-contact')">&times;</div>
+            <h3>Залишити заявку</h3>
+            <p>Введіть дані, ми зателефонуємо для консультації.</p>
+            <form id="contact-form">
+                <input type="text" id="userName" class="m-input" placeholder="Ваше ім'я" maxlength="20" required>
+                
+                <input type="tel" id="userPhone" class="m-input" placeholder="Номер телефону" minlength="10" maxlength="13" pattern="[\+0-9]+" required>                
+                <button type="submit" class="btn-submit">Надіслати</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="js/message.js?v=1.3"></script>
+<script src="js/script.js?v=1.3"></script>
+</body>
+</html>
